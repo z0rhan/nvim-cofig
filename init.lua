@@ -19,7 +19,6 @@ vim.opt.smartindent = true
 
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>v", vim.cmd.Ex)
-vim.opt.smartindent = false
 
 require("config.lazy")
 
