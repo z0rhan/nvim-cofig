@@ -16,6 +16,7 @@ vim.opt.scrolloff = 10
 
 vim.opt.autoindent = true
 vim.opt.smartindent = true
+vim.opt.hlsearch= false
 
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>v", vim.cmd.Ex)
