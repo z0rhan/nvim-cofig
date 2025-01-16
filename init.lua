@@ -1,4 +1,4 @@
-print("Hello!")
+print("Welcome Back, Piece of Shit!!!")
 
 vim.opt.guicursor = ""
 
