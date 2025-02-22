@@ -12,6 +12,7 @@ return {
 		-- Telescope setup with theme and layout configuration
 		require("telescope").setup({
 			defaults = {
+                file_ignore_patterns = { ".git" },
 				-- Set your desired theme here
 				theme = "ivy", -- You can use 'ivy', 'dropdown', 'cursor', or any custom theme
 			},

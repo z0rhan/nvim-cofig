@@ -22,11 +22,9 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>v", vim.cmd.Ex)
 vim.keymap.set('v', '<Leader>y', '"+y', { noremap = true, silent = true })
 
-
 require("config.lazy")
 
 vim.cmd([[hi! Normal guibg=NONE ctermbg=NONE]])
 vim.cmd([[hi! NormalNC guibg=NONE ctermbg=NONE]])
   -- Add more highlighting groups as needed
-
 
