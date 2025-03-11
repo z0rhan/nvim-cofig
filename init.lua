@@ -29,4 +29,8 @@ vim.cmd([[hi! Normal guibg=NONE ctermbg=NONE]])
 vim.cmd([[hi! NormalNC guibg=NONE ctermbg=NONE]])
   -- Add more highlighting groups as needed
 
+-- Enable persistent undo
+vim.opt.undodir = vim.fn.expand('~/.config/nvim/undo')  -- Set undo directory
+vim.opt.undofile = true  -- Enable undo file support
+
 
