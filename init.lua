@@ -22,7 +22,6 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>v", vim.cmd.Ex)
 vim.keymap.set('v', '<Leader>y', '"+y', { noremap = true, silent = true })
 
-
 require("config.lazy")
 
 vim.cmd([[hi! Normal guibg=NONE ctermbg=NONE]])
@@ -32,5 +31,4 @@ vim.cmd([[hi! NormalNC guibg=NONE ctermbg=NONE]])
 -- Enable persistent undo
 vim.opt.undodir = vim.fn.expand('~/.config/nvim/undo')  -- Set undo directory
 vim.opt.undofile = true  -- Enable undo file support
-
 
